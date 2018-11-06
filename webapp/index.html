@@ -6,6 +6,7 @@
 	</head>
 
 	<body>
+		<script source='page_script.js'></script>
 		<div id='wrapper'>
 			<h1>FWBO</h1>
 			<p>
@@ -13,6 +14,11 @@
 			</p>
 			<p>
 				<a href='test.html'>Link that cannot properly be followed</a>
+			</p>
+			<p>
+				<button onclick='poke()'>Poke the AJAX to see if it works</button>
+				<br/>
+				<span id='pokeresponse'>It doesn't. Yet.</span>
 			</p>
 		</div>
 	</body>
